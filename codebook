@@ -1,0 +1,29 @@
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+Here are the data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The original data set is constructed in a convoluted way and takes some effort to figure out.
+The following files are included in the zip that is downloaded from the link above:
+(Note that the following are copied from the readme provided in the zip file)
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+The tidy data set is provided in the file wk4_tidy_data.csv and consists of the following columns:
+1. SubjectID - the id of the subject perform the test
+2. ActivityID - the type of activity performed (one of 6)
+3. 79 values representing the mean for the specified measurement for that subject and activity.  The 
+   79 features were selected from the original set by choosing only those that represented a mean or stddev.
