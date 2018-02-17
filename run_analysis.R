@@ -62,5 +62,5 @@ mt1 = summarize_all(mt1, mean)
 
 #mt1 represents the tidy data set showing the mean of each remaining variable, grouped by Subject and Activity
 
-
+write.csv(mt1, "./data/wk4_tidy_data.csv", row.names=FALSE)
 
